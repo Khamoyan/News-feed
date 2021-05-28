@@ -1,0 +1,34 @@
+.serach-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 22px 48px 22px 32px;
+    .news-search {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        .filter-content {
+            width: 400px;
+            min-width: 400px;
+            height: 100%;
+            background-color: #c4c4c4;
+            margin-right: 41px;
+            max-height: 710px;
+        }
+        .articles-conntent {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1;
+            width: calc(100% - 441px);
+            min-width: calc(100% - 441px);
+        }
+    }
+    .clear-and-sort {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 36px;
+        margin-bottom: 16px;
+    }
+}

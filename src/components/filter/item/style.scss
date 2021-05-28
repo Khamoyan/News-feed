@@ -1,0 +1,26 @@
+.filter-item {
+    margin-bottom: 12px;
+    span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .item-content{
+        display: flex;
+        flex-wrap: wrap;
+        .item{
+            display: flex;
+            margin-top: 8px;
+            max-width: calc(33.3% - 16px);
+            width: calc(33.3% - 16px);
+
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            span{
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

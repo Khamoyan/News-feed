@@ -1,0 +1,164 @@
+{
+    "countries": [
+        {
+            "code": "ae",
+            "name": "United Arab Emirates"
+        },
+        {
+            "code": "ar",
+            "name": "Argentina"
+        },
+        {
+            "code": "at",
+            "name": "Austria"
+        },
+
+        {
+            "code": "au",
+            "name": "Australia"
+        },
+        {
+            "code": "be",
+            "name": "Belgium"
+        },
+        {
+            "code": "bg",
+            "name": "Bulgaria"
+        },
+        {
+            "code": "br",
+            "name": "Brazil"
+        },
+
+        {
+            "code": "ca",
+            "name": "Canada"
+        },
+        {
+            "code": "ch",
+            "name": "Switzerland"
+        },
+        {
+            "code": "cn",
+            "name": "China"
+        },
+        {
+            "code": "co",
+            "name": "Colombia"
+        },
+        {
+            "code": "cu",
+            "name": "Cuba"
+        },
+        {
+            "code": "cz",
+            "name": "Czech Republic"
+        },
+        {
+            "code": "de",
+            "name": "Germany"
+        },
+        {
+            "code": "eg",
+            "name": "Egypt"
+        },
+        {
+            "code": "fr",
+            "name": "France"
+        },
+        {
+            "code": "gb",
+            "name": "United Kingdom of Great Britain and Northern Ireland"
+        },
+        {
+            "code": "gr",
+            "name": "Greece"
+        }
+    
+    ],
+
+    "categor":[
+        {
+            "code": "business",
+            "name": "business"
+        },
+        {
+            "code": "entertainment",
+            "name": "Entertainment"
+        },
+        {
+            "code": "general",
+            "name": "General"
+        },
+        {
+            "code": "health",
+            "name": "Health"
+        },
+        {
+            "code": "science",
+            "name": "Science"
+        },
+        {
+            "code": "sports",
+            "name": "Sports"
+        },
+        {
+            "code": "technology",
+            "name": "Technology"
+        }
+    ] ,
+    "language":[
+        {
+            "code": "ar",
+            "name": "ar"
+        },
+        {
+            "code": "de",
+            "name": "de"
+        },
+        {
+            "code": "en",
+            "name": "en"
+        },
+        {
+            "code": "fr",
+            "name": "fr"
+        },
+        {
+            "code": "he",
+            "name": "he"
+        },
+        {
+            "code": "it",
+            "name": "it"
+        },
+        {
+            "code": "nl",
+            "name": "nl"
+        },
+        {
+            "code": "no",
+            "name": "no"
+        },
+        {
+            "code": "pt",
+            "name": "pt"
+        },
+        {
+            "code": "ru",
+            "name": "ru"
+        },
+        {
+            "code": "se",
+            "name": "se"
+        },
+        {
+            "code": "ud",
+            "name": "ud"
+        },
+        {
+            "code": "zh",
+            "name": "zh"
+        }
+    ] 
+}

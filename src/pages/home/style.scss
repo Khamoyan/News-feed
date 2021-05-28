@@ -1,0 +1,17 @@
+.news-hompage {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    width: 100%;
+    min-height: 100%;
+    .hompage-title {
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        text-align: center;
+    }
+    .source-conntent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

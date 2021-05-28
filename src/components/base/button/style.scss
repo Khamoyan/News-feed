@@ -1,0 +1,12 @@
+.news-button{
+    background-color: transparent;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    span{
+        color: black;
+        font-family: 18px;
+        line-height: 21px;
+    }
+}
