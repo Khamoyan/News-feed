@@ -9,17 +9,32 @@ import './style.scss'
 
 function SearchPage({
     list,
-    isloading
+    isloading,
+    onSort,
+    filters,
+    onFilterBy,
+    isloadingNextPage,
+    clearFilters
 }) {
+
     return (
         <div className='serach-page'>
             <div className='clear-and-sort'>
-                <Button text='Clear' />
-                <Sort />
+                <Button
+                    text='Clear'
+                    onClick={clearFilters}
+                />
+                <Sort
+                    onSort={onSort}
+                    active={filters.sortBy}
+                />
             </div>
             <div className='news-search'>
                 <div className='filter-content'>
-                    <Filters />
+                    <Filters
+                        onFilterBy={onFilterBy}
+                        filters={filters}
+                    />
                 </div>
                 <div className='articles-conntent'>
                     {
@@ -37,7 +52,22 @@ function SearchPage({
                             )
                         })
                     }
+                    {
+                        !isloading && list && list.length === 0 && (
+                            <span
+                                style={{
+                                    textAlign: 'center',
+                                    margin: 'auto'
+                                }}
+                            > No Result</span>
+                        )
+                    }
                 </div>
+                {
+                    isloadingNextPage && (
+                        <Loader />
+                    )
+                }
             </div>
         </div>
     );

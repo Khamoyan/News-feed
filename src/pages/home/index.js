@@ -29,6 +29,16 @@ function Homepage({
             )
           })
         }
+        {
+          !isloading && list && list.length === 0 && (
+            <span
+              style={{
+                textAlign: 'center',
+                margin: 'auto'
+              }}
+            > No Result</span>
+          )
+        }
       </div>
     </div>
   );

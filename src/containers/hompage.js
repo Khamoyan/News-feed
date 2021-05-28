@@ -11,7 +11,7 @@ function HomepageContainer() {
 
     useEffect(() => {
         dispatch(fetchSources())
-    }, [])
+    }, [dispatch]);
     return (
         <Homepage
 

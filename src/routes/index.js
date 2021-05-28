@@ -5,8 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 
-// import history from '../utils/history'
 import suspenser from '../utils/hoc'
+
 const HomePage = React.lazy(() => import('../containers/hompage'));
 const SearchPage = React.lazy(() => import('../containers/search'));
 
@@ -22,8 +22,12 @@ function Routes() {
           />
           <Route
             path="/search"
-            // exact
+            exact
             component={suspenser(SearchPage)}
+          />
+          <Route
+            path='*'
+            render={() => <div className='not-found'>Page not found:(</div>}
           />
         </Switch>
       </Router>

@@ -66,3 +66,7 @@ a:active {
   flex-direction: column;
   padding: 12px;
 }
+.not-found {
+  margin: 60px auto;
+  font-size: 34px;
+}
